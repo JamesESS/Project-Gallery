@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>F&C Project Gallery</title>
+	</head>
+	<body>
+        <h1>My FAC Project Gallery</h1>
+        <div class="cardcontainer">
+            <div class="card" id="hobbypage">
+                <button id="hobbypagedetailstoggle" class="detailstoggle">Show more</button>
+                <img class="cardimg" id="hobbypageimg" src="Images/hobbypage 800by600px.jpg" alt="Screenshot of my hobby page website">
+                <div id="hobbypagedetails" class="hidden imgoverlap">
+                    <div class="tabs" id="hobbypagebuttons">
+                        <Button class="tablinks tablinkshobby" onclick="changeTabHobby(event, 'hobbypagetext')">Maintext</Button>
+                        <Button class="tablinks tablinkshobby" onclick="changeTabHobby(event, 'hobbypagehtml')">HTML</Button>
+                        <Button class="tablinks tablinkshobby" onclick="changeTabHobby(event, 'hobbypagecss')">CSS</Button>
+                        <Button class="tablinks tablinkshobby" onclick="changeTabHobby(event, 'hobbypagejavascript')">JS</Button>
+                    </div>
+                    <div class="cardtexthobby cardtext" id="hobbypagetext">
+                        <h2>Hobby Page</h2>
+                        <p class="scroll">A basic webpage about cycling and my plans to do a cycling trip. This project was an itroduction to using DOM to add functionality to a webpage. I used DOM to have the correct date displayed in the footer at all times and a countdown to my next cycling trip. It also gave me a chance to practise using lists and playing around with CSS</p>
+                    </div>
+                    <div class="cardtexthobby cardtext" id="hobbypagehtml">
+                        <h2>HTML</h2>
+                        <p class="scroll">my html</p>
+                    </div>
+                    <div class="cardtexthobby cardtext" id="hobbypagecss">
+                        <h2>css</h2>
+                        <p class="scroll">my css</p>
+                    </div>
+                    <div class="cardtexthobby cardtext" id="hobbypagejavascript">
+                        <h2>Javascript</h2>
+                        <p class="scroll">my javascrip</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="projectgallery">
+                <button id="projectgallerydetailstoggle" class="detailstoggle">Show more</button>
+                <img class="cardimg" id="projectimg" src="Images/projectgallery 800by600px.jpg" alt="Screenshot of my hobby page website">
+                <div id="projectgallerydetails" class="hidden imgoverlap">
+                    <div class="tabs" id="projectgallerybuttons">
+                        <Button class="tablinks tablinksgallery" onclick="changeTabGallery(event, 'projectgallerytext')">Maintext</Button>
+                        <Button class="tablinks tablinksgallery" onclick="changeTabGallery(event, 'projectgalleryhtml')">HTML</Button>
+                        <Button class="tablinks tablinksgallery" onclick="changeTabGallery(event, 'projectgallerycss')">CSS</Button>
+                        <Button class="tablinks tablinksgallery" onclick="changeTabGallery(event, 'projectgalleryjavascript')">JS</Button>
+                    </div>
+                    <div class="cardtext cardtextgallery" id="projectgallerytext">
+                        <h2>Project Gallery</h2>
+                        <p class="scroll">A webpage showing the carious projects required for Founders and Coders pre-requisites. This project was focused on utilising responsive web design and getting comfortable with flexbox. For this project I needed to learn about flexbox and how to structure my html to properly make use of it.</p>
+                    </div>
+                    <div class="cardtext cardtextgallery" id="projectgalleryhtml">
+                        <h2>HTML</h2>
+                        <p class="scroll">my html</p>
+                    </div>
+                    <div class="cardtext cardtextgallery" id="projectgallerycss">
+                        <h2>css</h2>
+                        <p class="scroll">my css</p>
+                    </div>
+                    <div class="cardtext cardtextgallery" id="projectgalleryjavascript">
+                        <h2>Javascript</h2>
+                        <p class="scroll">my javascrip</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="moviedatabase">
+                <button id="moviedatabasedetailstoggle" class="detailstoggle">Show more</button>
+                <img class="cardimg" id="moviedatabaseimg" src="Images/moviedata 800by600px.jpg" alt="Screenshot of my hobby page website">
+                <div id="moviedatabasedetails" class="hidden imgoverlap">
+                    <div class="tabs" id="moviedatabasebuttons">
+                        <Button class="tablinks tablinksmovie" onclick="changeTabMovie(event, 'moviedatabasetext')">Maintext</Button>
+                        <Button class="tablinks tablinksmovie" onclick="changeTabMovie(event, 'moviedatabasehtml')">HTML</Button>
+                        <Button class="tablinks tablinksmovie" onclick="changeTabMovie(event, 'moviedatabasecss')">CSS</Button>
+                        <Button class="tablinks tablinksmovie" onclick="changeTabMovie(event, 'moviedatabasejavascript')">JS</Button>
+                    </div>
+                    <div class="cardtext cardtextmovie" id="moviedatabasetext">
+                        <h2>Movie Database</h2>
+                        <p class="scroll">This project was focused on making an interactive website. I decided I wanted to make it possible for the user to submit their own films and I also really wanted a way of picking a random film from the database. For this project I had to learn more about DOM, object manipulation and start making use of conditions in JavaScript</p>
+                    </div>
+                    <div class="cardtext cardtextmovie" id="moviedatabasehtml">
+                        <h2>HTML</h2>
+                        <p class="scroll">my html</p>
+                    </div>
+                    <div class="cardtext cardtextmovie" id="moviedatabasecss">
+                        <h2>css</h2>
+                        <p class="scroll">my css</p>
+                    </div>
+                    <div class="cardtext cardtextmovie" id="moviedatabasejavascript">
+                        <h2>Javascript</h2>
+                        <p class="scroll">my javascrip</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="facwebpage">
+                <button id="facwebpagesdetailstoggle" class="detailstoggle">Show more</button>
+                <img class="cardimg" id="facwebpageimg" src="images/webpage 800by600px.jpg" alt="Screenshot of my founders and coders website">
+                <div id="facwebpagedetails" class="hidden imgoverlap">
+                    <div class="tabs" id="facwebpagebuttons">
+                        <Button class="tablinks tablinkswebpage" onclick="changeTabWebPage(event, 'facwebpagetext')">Maintext</Button>
+                        <Button class="tablinks tablinkswebpage" onclick="changeTabWebPage(event, 'facwebpagehtml')">HTML</Button>
+                        <Button class="tablinks tablinkswebpage" onclick="changeTabWebPage(event, 'facwebpagecss')">CSS</Button>
+                        <Button class="tablinks tablinkswebpage" onclick="changeTabWebPage(event, 'facwebpagejavascript')">JS</Button>
+                    </div>
+                    <div class="cardtext cardtextwebpage" id="facwebpagetext">
+                        <h2>About me webpage</h2>
+                        <p class="scroll">My FaC webpage</p>
+                    </div>
+                    <div class="cardtext cardtextwebpage" id="facwebpagehtml">
+                        <h2>HTML</h2>
+                        <p class="scroll">my html</p>
+                    </div>
+                    <div class="cardtext cardtextwebpage" id="facwebpagecss">
+                        <h2>css</h2>
+                        <p class="scroll">my css</p>
+                    </div>
+                    <div class="cardtext cardtextwebpage" id="facwebpagejavascript">
+                        <h2>Javascript</h2>
+                        <p class="scroll">my javascrip</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="facgame">
+                <button id="facgamedetailstoggle" class="detailstoggle">Show more</button>
+                <img class="cardimg" id="facgameimg" src="Images/game 800by600px.jpg" alt="Screenshot of my hobby page website">
+                <div id="facgamedetails" class="hidden imgoverlap">
+                    <div class="tabs" id="facgamebuttons">
+                        <Button class="tablinks tablinksgame" onclick="changeTabGame(event, 'facgametext')">Maintext</Button>
+                        <Button class="tablinks tablinksgame" onclick="changeTabGame(event, 'facgamehtml')">HTML</Button>
+                        <Button class="tablinks tablinksgame" onclick="changeTabGame(event, 'facgamecss')">CSS</Button>
+                        <Button class="tablinks tablinksgame" onclick="changeTabGame(event, 'facgamejavascript')">JS</Button>
+                    </div>
+                    <div class="cardtext cardtextgame" id="facgametext">
+                        <h2>Hobby Page</h2>
+                        <p class="scroll">A basic webpage about cycling and my plans to do a cycling trip. This project was an itroduction to using DOM to add functionality to a webpage. I used DOM to have the correct date displayed in the footer at all times and a countdown to my next cycling trip. It also gave me a chance to practise using lists and playing around with CSS</p>
+                    </div>
+                    <div class="cardtext cardtextgame" id="facgamehtml">
+                        <h2>HTML</h2>
+                        <p class="scroll">my html</p>
+                    </div>
+                    <div class="cardtext cardtextgame" id="facgamecss">
+                        <h2>css</h2>
+                        <p class="scroll">my css</p>
+                    </div>
+                    <div class="cardtext cardtextgame" id="facgamejavascript">
+                        <h2>Javascript</h2>
+                        <p class="scroll">my javascrip</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="projectgallery.js" defer></script>
+</html>

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    cursor: default;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(211,255,233,1);
+}
+.hidden{
+    display: none;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.cardcontainer {
+    
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 25px;
+    
+}
+
+.card {
+    position: relative;    
+    width: clamp(200px, 100%, 600px);
+    min-height: 200px;
+}
+.cardimg {
+    width: clamp(200px, 100%, 600px);
+    object-fit: contain;
+    
+    
+    /* opacity: 0; */
+}
+.detailstoggle {
+    width: clamp(200px, 100%, 600px);
+    position: absolute;
+    top: -18px;
+    border: none;
+    
+}
+
+.tabs {
+
+    position: absolute;
+    width: clamp(200px, 100%, 600px);
+    top: 0px;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+}
+.tabs button.active {
+    background-color: aqua;
+}
+.tablinks {
+    flex-grow: 1;
+    border-bottom-color: rgba(9,9,9,0.7);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+.cardtext {
+    position: absolute;
+    width: clamp(200px, 100%, 800px);
+    top: 20px;
+    height: 95.5%;
+    overflow: auto;    
+    color: rgb(219,219,224);
+    background-color: rgba(9,9,9,0.7);
+}
+.tabs {
+    background-color: rgba(9,9,9,0.7);
+}
+
+/* .imgoverlap {
+    width: clamp(200px, 100%, 600px);
+    object-fit: contain;
+} */
+
+/* .scroll {
+    width: clamp(200px, 100%, 800px);
+    vertical-align: ;
+    overflow: auto;
+    height: inherit;
+    max-height: 100%;
+    position: fixed;
+} */
