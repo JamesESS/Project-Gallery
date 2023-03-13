@@ -20,20 +20,201 @@
                         <Button class="tablinks tablinkshobby" onclick="changeTabHobby(event, 'hobbypagejavascript')">JS</Button>
                     </div>
                     <div class="cardtexthobby cardtext" id="hobbypagetext">
-                        <h2><a href="https://jamesess.github.io/Hobby-Page/">Hobby Page</a></h2>
+                        <h2><a href="https://jamesess.github.io/Hobby-Page/" target=”_blank” >Hobby Page</a></h2>
                         <p class="scroll">A basic webpage about cycling and my plans to do a cycling trip. This project was an itroduction to using DOM to add functionality to a webpage. I used DOM to have the correct date displayed in the footer at all times and a countdown to my next cycling trip. It also gave me a chance to practise using lists and playing around with CSS</p>
                     </div>
                     <div class="cardtexthobby cardtext" id="hobbypagehtml">
                         <h2>HTML</h2>
-                        <p class="scroll">my html</p>
+                        <pre class="scroll precontent">&lt;!DOCTYPE html&gt;<br />
+<br />
+&lt;html lang=&quot;en&quot;&gt;<br />
+  &lt;head&gt;<br />
+    &lt;meta charset=&quot;utf-8&quot;&gt;<br />
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
+    &lt;link href=&quot;my-styles.css&quot; rel=&quot;stylesheet&quot;&gt;<br />
+    &lt;title&gt;Bicycles&lt;/title&gt;<br />
+<br />
+  &lt;/head&gt;<br />
+<br />
+&lt;body&gt;<br />
+    &lt;main&gt;<br />
+        &lt;h1 class=&quot;heading&quot;&gt;<br />
+            Cycling<br />
+        &lt;/h1&gt;<br />
+        &lt;div&gt;<br />
+            &lt;p id=&quot;intro&quot; class=&quot;maintext&quot;&gt;<br />
+            I've been intrested in cycling for as long as I can remember. I absolutely love getting on two wheels and exploring the countryside.<br />
+            unfortunately living in London there's limited oportunites to fly along country lanes or struggle up gravel paths. So most of the time I have to settle for <br />
+            riding my road bike around the quiter stretches of north London<br />
+            **london cycling photo**<br />
+            &lt;/p&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;div&gt;<br />
+            &lt;img src=&quot;images/scottishhills.jpg&quot; alt=&quot;Photo of road running through hills in scotland&quot; id=&quot;bpimg&quot;&gt;<br />
+            &lt;p id=&quot;bikepack&quot; class=&quot;maintext&quot;&gt;<br />
+                When I can find the time I like to dust of the gravel bike and do some bikepacking. While bikepacking the aim is to travel reasonably light, only carrying what you need for your ride.<br />
+                As a chronic overpacker I struggle with this aspect of the hobby a fair bit. So I figure I should share a checklist of what to take on your adventure (as much for my benefit as for yours)<br />
+            &lt;/p&gt;<br />
+            &lt;h2 id=&quot;listhead&quot; class=&quot;listall subheading&quot;&gt;Packing list&lt;/h2&gt;<br />
+            &lt;ul id=&quot;list&quot; class=&quot;listall&quot;&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Multi-tool&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Multi-tool&quot;&gt;Multi-tool&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Puncture repair kit&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Puncture repair kit&quot;&gt;Puncture repair kit&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Spare quick link&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Spare quick link&quot;&gt;Spare quick link&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Headtorch&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Headtorch&quot;&gt;Headtorch&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Tent&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Tent&quot;&gt;Tent&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Rollmat&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Rollmat&quot;&gt;Rollmat&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;Powerbank&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;Powerbank&quot;&gt;Powerbank&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;extra1&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;extra1&quot;&gt;extra1&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;extra2&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;extra2&quot;&gt;extra2&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;extra3&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;extra3&quot;&gt;extra3&lt;/label&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;input id=&quot;extra4&quot; type=&quot;checkbox&quot; name=&quot;BPList&quot;&gt; &lt;label for=&quot;extra4&quot;&gt;extra4&lt;/label&gt;&lt;/li&gt;<br />
+            &lt;/ul&gt;<br />
+            &lt;p id=&quot;listfoot&quot; class=&quot;listall maintext&quot;&gt;and of course your bike!!&lt;/p&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;div&gt;<br />
+            &lt;p id=&quot;dorset&quot; class=&quot;maintext&quot;&gt;<br />
+                In April I will be taking some time out to do the dorset old chalkway a route starting from the dorset coast and finishing 370 miles later on the coast of Norfolk.<br />
+                **Link to komoot route?**<br />
+            &lt;/p&gt;<br />
+            &lt;p id=&quot;advCountdown&quot; class=&quot;maintext&quot;&gt;<br />
+<br />
+            &lt;/p&gt;<br />
+        <br />
+        &lt;/div&gt;<br />
+        &lt;div&gt;<br />
+            &lt;p class=&quot;placeholder maintext&quot;&gt;<br />
+            If we're being totally honest I spend far more time lusting over new parts or thinking about how to buil up my nect bike than I do actually in the saddle.<br />
+            I've had the opportunity to build a couple of frames for myself. My friend and I are slowly collecting up the tools required to make some more frames<br />
+            So maybe soon you'll be off bikepacking on one of my frames!<br />
+            &lt;/p&gt;<br />
+        &lt;/div&gt;    <br />
+        <br />
+    &lt;/main&gt;<br />
+    <br />
+&lt;/body&gt;<br />
+&lt;footer&gt;<br />
+    &lt;!-- &lt;div class=&quot;footerdiv&quot;&gt; --&gt;<br />
+        &lt;p id=&quot;footer1&quot; class=&quot;maintext&quot;&gt;<br />
+            James Sandford Smith's Hobby page for &lt;a href=&quot;https://www.foundersandcoders.com/&quot;&gt;Founders and Coders&lt;/a&gt;<br />
+        &lt;/p&gt;<br />
+        &lt;p id=&quot;footer2&quot; class=&quot;maintext&quot;&gt;lalalallalalalalalalalala&lt;/p&gt;<br />
+    &lt;!-- &lt;/div&gt; --&gt;<br />
+&lt;/footer&gt;<br />
+<br />
+&lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;</pre>
                     </div>
                     <div class="cardtexthobby cardtext" id="hobbypagecss">
-                        <h2>css</h2>
-                        <p class="scroll">my css</p>
+                        <h2>CSS</h2>
+                        <pre class="scroll precontent">body {<br />
+    padding-top: 0%;<br />
+    margin: 0%;<br />
+    background-color: rgb(0, 0, 0);<br />
+}<br />
+.footerdiv {<br />
+    background-color: rgb(0, 0, 0);<br />
+}<br />
+.heading {<br />
+    color: blueviolet;<br />
+    font-size: 60px;<br />
+    font-family: georgia, serif;<br />
+    text-align: center;<br />
+}<br />
+<br />
+.subheading {<br />
+    color: blueviolet;<br />
+    font-size: 40px;<br />
+    font-family: georgia, serif;<br />
+}<br />
+<br />
+.maintext {<br />
+    color: violet;<br />
+    font-family: garamond, serif;<br />
+    font-size: 20px;<br />
+    <br />
+}<br />
+<br />
+#intro {<br />
+    padding-right: 55%;<br />
+    padding-left: 5%;<br />
+    padding-bottom: 100px;<br />
+    <br />
+}<br />
+<br />
+#bpimg {<br />
+    float: left;<br />
+    padding-left: 5%;<br />
+    margin-right: 5%;<br />
+}<br />
+<br />
+#bikepack {<br />
+    padding-bottom: 0px;<br />
+    padding-right: 5%;<br />
+    padding-left: 55%;    <br />
+}<br />
+<br />
+.listall {<br />
+    padding-left: 55%;<br />
+}<br />
+<br />
+#list {<br />
+    color: violet;<br />
+    list-style-type: none;<br />
+    font-size: 18px;<br />
+    font-family: garamond, serif;<br />
+}<br />
+<br />
+#footer1 {<br />
+    display: inline;<br />
+    float: inline-start;<br />
+    margin-left: 1%;<br />
+    background-color: rgb(0, 0, 0);<br />
+}<br />
+#footer2 {<br />
+    display: inline;<br />
+    float: inline-end;<br />
+    margin-right: 1%;<br />
+    background-color: rgb(0, 0, 0);<br />
+}</pre>
                     </div>
                     <div class="cardtexthobby cardtext" id="hobbypagejavascript">
-                        <h2>Javascript</h2>
-                        <p class="scroll">my javascrip</p>
+                        <h2>JavaScript</h2>
+                        <pre class="scroll precontent">const dateDisplay = document.getElementById(&quot;footer2&quot;);<br />
+const advCountdownDisplay = document.getElementById(&quot;advCountdown&quot;);<br />
+<br />
+let advDate = new Date(2023,03,11,10,0,0);      //set bike ride time<br />
+<br />
+timeOutputs();      //initialise bothe dates on site<br />
+setInterval(timeOutputs,1000)       //outputs updated dates on 1 second cycle<br />
+<br />
+/* function to get current time and work out time until advDate */<br />
+function timeOutputs() {<br />
+    let currentTime = new Date();     //get current date/time<br />
+  <br />
+<br />
+    /* get current time and format*/<br />
+    var today = currentTime;<br />
+    const options = { weekday: 'long', year: '2-digit', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };       //set display format for date <br />
+    today = today.toLocaleString(undefined, options);   //format date<br />
+  <br />
+<br />
+    /* check if countdown is finished otherwise find time difference */<br />
+    var countdown = advDate - currentTime;        //find time diference in miliseconds<br />
+    if (countdown &lt; 0) {        //clear timer when countdown finishes<br />
+        days = 0;<br />
+        hours = 0;<br />
+        minutes = 0;<br />
+    }<br />
+    else {<br />
+        var days = Math.floor(countdown / (1000 * 60 * 60 * 24));       //convert milliseconds to days, hours etc<br />
+        var hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));<br />
+        var minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60));<br />
+    }<br />
+    let advString = days + &quot; days &quot; + hours + &quot; hours &amp; &quot; + minutes + &quot; minutes until my next adventure!!!&quot;;<br />
+<br />
+    /* output current date and countdown timer to site */<br />
+    dateDisplay.innerText = today;<br />
+    advCountdownDisplay.innerText = advString;<br />
+}</pre>
                     </div>
                 </div>
             </div>
@@ -48,20 +229,419 @@
                         <Button class="tablinks tablinksgallery" onclick="changeTabGallery(event, 'projectgalleryjavascript')">JS</Button>
                     </div>
                     <div class="cardtext cardtextgallery" id="projectgallerytext">
-                        <h2><a href="https://jamesess.github.io/Project-Gallery/">Project Gallery</a></h2>
+                        <h2><a href="https://jamesess.github.io/Project-Gallery/" target=”_blank” >Project Gallery</a></h2>
                         <p class="scroll">A webpage showing the carious projects required for Founders and Coders pre-requisites. This project was focused on utilising responsive web design and getting comfortable with flexbox. For this project I needed to learn about flexbox and how to structure my html to properly make use of it.</p>
                     </div>
                     <div class="cardtext cardtextgallery" id="projectgalleryhtml">
                         <h2>HTML</h2>
-                        <p class="scroll">my html</p>
+                        <pre class="scroll precontent">&lt;!DOCTYPE html&gt;<br />
+&lt;html lang=&quot;en&quot;&gt;<br />
+	&lt;head&gt;<br />
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;<br />
+		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;<br />
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;<br />
+		&lt;title&gt;F&amp;C Project Gallery&lt;/title&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;<br />
+        &lt;h1&gt;My FAC Project Gallery&lt;/h1&gt;<br />
+        &lt;div class=&quot;cardcontainer&quot;&gt;<br />
+            &lt;div class=&quot;card&quot; id=&quot;hobbypage&quot;&gt;<br />
+                &lt;button id=&quot;hobbypagedetailstoggle&quot; class=&quot;detailstoggle&quot;&gt;Show more&lt;/button&gt;<br />
+                &lt;img class=&quot;cardimg&quot; id=&quot;hobbypageimg&quot; src=&quot;Images/hobbypage 800by600px.jpg&quot; alt=&quot;Screenshot of my hobby page website&quot;&gt;<br />
+                &lt;div id=&quot;hobbypagedetails&quot; class=&quot;hidden imgoverlap&quot;&gt;<br />
+                    &lt;div class=&quot;tabs&quot; id=&quot;hobbypagebuttons&quot;&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkshobby&quot; onclick=&quot;changeTabHobby(event, 'hobbypagetext')&quot;&gt;Maintext&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkshobby&quot; onclick=&quot;changeTabHobby(event, 'hobbypagehtml')&quot;&gt;HTML&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkshobby&quot; onclick=&quot;changeTabHobby(event, 'hobbypagecss')&quot;&gt;CSS&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkshobby&quot; onclick=&quot;changeTabHobby(event, 'hobbypagejavascript')&quot;&gt;JS&lt;/Button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtexthobby cardtext&quot; id=&quot;hobbypagetext&quot;&gt;<br />
+                        &lt;h2&gt;&lt;a href=&quot;https://jamesess.github.io/Hobby-Page/&quot;&gt;Hobby Page&lt;/a&gt;&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;A basic webpage about cycling and my plans to do a cycling trip. This project was an itroduction to using DOM to add functionality to a webpage. I used DOM to have the correct date displayed in the footer at all times and a countdown to my next cycling trip. It also gave me a chance to practise using lists and playing around with CSS&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtexthobby cardtext&quot; id=&quot;hobbypagehtml&quot;&gt;<br />
+                        &lt;h2&gt;HTML&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my html&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtexthobby cardtext&quot; id=&quot;hobbypagecss&quot;&gt;<br />
+                        &lt;h2&gt;css&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my css&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtexthobby cardtext&quot; id=&quot;hobbypagejavascript&quot;&gt;<br />
+                        &lt;h2&gt;Javascript&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my javascrip&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class=&quot;card&quot; id=&quot;projectgallery&quot;&gt;<br />
+                &lt;button id=&quot;projectgallerydetailstoggle&quot; class=&quot;detailstoggle&quot;&gt;Show more&lt;/button&gt;<br />
+                &lt;img class=&quot;cardimg&quot; id=&quot;projectimg&quot; src=&quot;Images/projectgallery 800by600px.jpg&quot; alt=&quot;Screenshot of my hobby page website&quot;&gt;<br />
+                &lt;div id=&quot;projectgallerydetails&quot; class=&quot;hidden imgoverlap&quot;&gt;<br />
+                    &lt;div class=&quot;tabs&quot; id=&quot;projectgallerybuttons&quot;&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgallery&quot; onclick=&quot;changeTabGallery(event, 'projectgallerytext')&quot;&gt;Maintext&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgallery&quot; onclick=&quot;changeTabGallery(event, 'projectgalleryhtml')&quot;&gt;HTML&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgallery&quot; onclick=&quot;changeTabGallery(event, 'projectgallerycss')&quot;&gt;CSS&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgallery&quot; onclick=&quot;changeTabGallery(event, 'projectgalleryjavascript')&quot;&gt;JS&lt;/Button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgallery&quot; id=&quot;projectgallerytext&quot;&gt;<br />
+                        &lt;h2&gt;&lt;a href=&quot;https://jamesess.github.io/Project-Gallery/&quot;&gt;Project Gallery&lt;/a&gt;&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;A webpage showing the carious projects required for Founders and Coders pre-requisites. This project was focused on utilising responsive web design and getting comfortable with flexbox. For this project I needed to learn about flexbox and how to structure my html to properly make use of it.&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgallery&quot; id=&quot;projectgalleryhtml&quot;&gt;<br />
+                        &lt;h2&gt;HTML&lt;/h2&gt;<br />
+                        &lt;pre class=&quot;scroll&quot;&gt;my html&lt;/pre&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgallery&quot; id=&quot;projectgallerycss&quot;&gt;<br />
+                        &lt;h2&gt;css&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my css&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgallery&quot; id=&quot;projectgalleryjavascript&quot;&gt;<br />
+                        &lt;h2&gt;Javascript&lt;/h2&gt;<br />
+                        &lt;pre class=&quot;scroll&quot;&gt;my javascrip&lt;/pre&gt;<br />
+                    &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class=&quot;card&quot; id=&quot;moviedatabase&quot;&gt;<br />
+                &lt;button id=&quot;moviedatabasedetailstoggle&quot; class=&quot;detailstoggle&quot;&gt;Show more&lt;/button&gt;<br />
+                &lt;img class=&quot;cardimg&quot; id=&quot;moviedatabaseimg&quot; src=&quot;Images/moviedata 800by600px.jpg&quot; alt=&quot;Screenshot of my hobby page website&quot;&gt;<br />
+                &lt;div id=&quot;moviedatabasedetails&quot; class=&quot;hidden imgoverlap&quot;&gt;<br />
+                    &lt;div class=&quot;tabs&quot; id=&quot;moviedatabasebuttons&quot;&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksmovie&quot; onclick=&quot;changeTabMovie(event, 'moviedatabasetext')&quot;&gt;Maintext&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksmovie&quot; onclick=&quot;changeTabMovie(event, 'moviedatabasehtml')&quot;&gt;HTML&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksmovie&quot; onclick=&quot;changeTabMovie(event, 'moviedatabasecss')&quot;&gt;CSS&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksmovie&quot; onclick=&quot;changeTabMovie(event, 'moviedatabasejavascript')&quot;&gt;JS&lt;/Button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextmovie&quot; id=&quot;moviedatabasetext&quot;&gt;<br />
+                        &lt;h2&gt;&lt;a href=&quot;https://jamesess.github.io/Movie-Database/&quot;&gt;Movie Database&lt;/a&gt;&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;This project was focused on making an interactive website. I decided I wanted to make it possible for the user to submit their own films and I also really wanted a way of picking a random film from the database. For this project I had to learn more about DOM, object manipulation and start making use of conditions in JavaScript&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextmovie&quot; id=&quot;moviedatabasehtml&quot;&gt;<br />
+                        &lt;h2&gt;HTML&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my html&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextmovie&quot; id=&quot;moviedatabasecss&quot;&gt;<br />
+                        &lt;h2&gt;css&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my css&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextmovie&quot; id=&quot;moviedatabasejavascript&quot;&gt;<br />
+                        &lt;h2&gt;Javascript&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my javascrip&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class=&quot;card&quot; id=&quot;facwebpage&quot;&gt;<br />
+                &lt;button id=&quot;facwebpagesdetailstoggle&quot; class=&quot;detailstoggle&quot;&gt;Show more&lt;/button&gt;<br />
+                &lt;img class=&quot;cardimg&quot; id=&quot;facwebpageimg&quot; src=&quot;Images/webpage 800by600px.jpg&quot; alt=&quot;Screenshot of my founders and coders website&quot;&gt;<br />
+                &lt;div id=&quot;facwebpagedetails&quot; class=&quot;hidden imgoverlap&quot;&gt;<br />
+                    &lt;div class=&quot;tabs&quot; id=&quot;facwebpagebuttons&quot;&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkswebpage&quot; onclick=&quot;changeTabWebPage(event, 'facwebpagetext')&quot;&gt;Maintext&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkswebpage&quot; onclick=&quot;changeTabWebPage(event, 'facwebpagehtml')&quot;&gt;HTML&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkswebpage&quot; onclick=&quot;changeTabWebPage(event, 'facwebpagecss')&quot;&gt;CSS&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinkswebpage&quot; onclick=&quot;changeTabWebPage(event, 'facwebpagejavascript')&quot;&gt;JS&lt;/Button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextwebpage&quot; id=&quot;facwebpagetext&quot;&gt;<br />
+                        &lt;h2&gt;&lt;a href=&quot;https://jamesess.github.io/FandCWebPage/&quot;&gt;About me webpage&lt;/a&gt;&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;My FaC webpage&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextwebpage&quot; id=&quot;facwebpagehtml&quot;&gt;<br />
+                        &lt;h2&gt;HTML&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my html&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextwebpage&quot; id=&quot;facwebpagecss&quot;&gt;<br />
+                        &lt;h2&gt;css&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my css&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextwebpage&quot; id=&quot;facwebpagejavascript&quot;&gt;<br />
+                        &lt;h2&gt;Javascript&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my javascrip&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class=&quot;card&quot; id=&quot;facgame&quot;&gt;<br />
+                &lt;button id=&quot;facgamedetailstoggle&quot; class=&quot;detailstoggle&quot;&gt;Show more&lt;/button&gt;<br />
+                &lt;img class=&quot;cardimg&quot; id=&quot;facgameimg&quot; src=&quot;Images/game 800by600px.jpg&quot; alt=&quot;Screenshot of my hobby page website&quot;&gt;<br />
+                &lt;div id=&quot;facgamedetails&quot; class=&quot;hidden imgoverlap&quot;&gt;<br />
+                    &lt;div class=&quot;tabs&quot; id=&quot;facgamebuttons&quot;&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgame&quot; onclick=&quot;changeTabGame(event, 'facgametext')&quot;&gt;Maintext&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgame&quot; onclick=&quot;changeTabGame(event, 'facgamehtml')&quot;&gt;HTML&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgame&quot; onclick=&quot;changeTabGame(event, 'facgamecss')&quot;&gt;CSS&lt;/Button&gt;<br />
+                        &lt;Button class=&quot;tablinks tablinksgame&quot; onclick=&quot;changeTabGame(event, 'facgamejavascript')&quot;&gt;JS&lt;/Button&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgame&quot; id=&quot;facgametext&quot;&gt;<br />
+                        &lt;h2&gt;Hobby Page&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;A basic webpage about cycling and my plans to do a cycling trip. This project was an itroduction to using DOM to add functionality to a webpage. I used DOM to have the correct date displayed in the footer at all times and a countdown to my next cycling trip. It also gave me a chance to practise using lists and playing around with CSS&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgame&quot; id=&quot;facgamehtml&quot;&gt;<br />
+                        &lt;h2&gt;HTML&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my html&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgame&quot; id=&quot;facgamecss&quot;&gt;<br />
+                        &lt;h2&gt;css&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my css&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;div class=&quot;cardtext cardtextgame&quot; id=&quot;facgamejavascript&quot;&gt;<br />
+                        &lt;h2&gt;Javascript&lt;/h2&gt;<br />
+                        &lt;p class=&quot;scroll&quot;&gt;my javascrip&lt;/p&gt;<br />
+                    &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+        &lt;/div&gt;<br />
+    &lt;/body&gt;<br />
+    &lt;script src=&quot;projectgallery.js&quot; defer&gt;&lt;/script&gt;<br />
+&lt;/html&gt;</pre>
                     </div>
                     <div class="cardtext cardtextgallery" id="projectgallerycss">
-                        <h2>css</h2>
-                        <p class="scroll">my css</p>
+                        <h2>CSS</h2>
+                        <pre class="scroll precontent">* {<br />
+    box-sizing: border-box;<br />
+    cursor: default;<br />
+    margin: 0;<br />
+    overflow-x: hidden;<br />
+}<br />
+<br />
+body {<br />
+    background-color: rgba(226,88,96,1);<br />
+    background-image: linear-gradient(to bottom right, rgba(223,54,124,0.5), rgba(229,122,68,1));<br />
+    color: rgba(234,234,234,1);<br />
+}<br />
+.hidden{<br />
+    display: none;<br />
+}<br />
+h1 {<br />
+    text-align: center;<br />
+    font-size: 3rem;<br />
+    padding-bottom: 5%;<br />
+}<br />
+h2{<br />
+    text-align: center;<br />
+    font-size: 1.5rem;<br />
+}<br />
+.cardcontainer {    <br />
+    display: flex;<br />
+    align-content: space-evenly;<br />
+    flex-wrap: wrap;<br />
+    justify-content: center;<br />
+    row-gap: 80px;<br />
+    column-gap: 25px;<br />
+    height: fit-content;<br />
+    <br />
+}<br />
+<br />
+.hobbypagedetails {<br />
+    overflow-y: scroll;<br />
+    overscroll-behavior: contain;<br />
+}<br />
+<br />
+.card {<br />
+    position: relative;    <br />
+    width: clamp(200px, 100%, 600px);<br />
+    min-height: 200px;<br />
+    <br />
+}<br />
+.cardimg {<br />
+    width: clamp(200px, 100%, 600px);<br />
+    object-fit: contain;<br />
+}<br />
+.detailstoggle {<br />
+    width: clamp(200px, 100%, 600px);<br />
+    position: absolute;<br />
+    top: -18px;<br />
+    border: none;<br />
+    background-color: rgba(0,42,34,1);<br />
+    color: rgba(234,234,234,1);<br />
+    cursor: pointer;<br />
+}<br />
+<br />
+.tabs {    <br />
+    position: absolute;<br />
+    width: clamp(200px, 100%, 600px);<br />
+    top: 0px;<br />
+    display: flex;<br />
+    align-content: space-evenly;<br />
+    justify-content: center;<br />
+}<br />
+.tabs button.active {<br />
+    background-color: rgba(46,28,43);<br />
+}<br />
+.tablinks {<br />
+    flex-grow: 1;<br />
+    border-bottom-color: rgba(46,28,43,0.7);<br />
+    border-top: none;<br />
+    border-left: none;<br />
+    border-right: none;<br />
+    color: rgba(234,234,234,1);<br />
+    background-color: rgba(0,42,34,1);<br />
+    cursor: pointer;<br />
+}<br />
+.cardtext {<br />
+    position: absolute;<br />
+    width: clamp(200px, 100%, 800px);<br />
+    top: 20px;<br />
+    height: 95.5%;<br />
+    overflow: auto;    <br />
+    background-color: rgba(9,9,9,0.7);<br />
+}<br />
+.tabs {<br />
+    background-color: rgba(9,9,9,0.7);<br />
+}<br />
+a {<br />
+    cursor: pointer;<br />
+    color: rgba(234,234,234,1);<br />
+}<br />
+.scroll {<br />
+    overflow-wrap: anywhere;<br />
+  }</pre>
                     </div>
                     <div class="cardtext cardtextgallery" id="projectgalleryjavascript">
-                        <h2>Javascript</h2>
-                        <p class="scroll">my javascrip</p>
+                        <h2>JavaScript</h2>
+                        <pre class="scroll precontent">const hobbyDetails = document.getElementById(&quot;hobbypagedetails&quot;);<br />
+const hobbyDetailsToggle = document.getElementById(&quot;hobbypagedetailstoggle&quot;);<br />
+const projectGalleryDetailsToggle = document.getElementById(&quot;projectgallerydetailstoggle&quot;);<br />
+const projectGalleryDetails = document.getElementById(&quot;projectgallerydetails&quot;);<br />
+const movieDatabaseDetailsToggle = document.getElementById(&quot;moviedatabasedetailstoggle&quot;);<br />
+const movieDatabaseDetails = document.getElementById(&quot;moviedatabasedetails&quot;);<br />
+const webPageDetailsToggle = document.getElementById(&quot;facwebpagesdetailstoggle&quot;);<br />
+const webPageDetails = document.getElementById(&quot;facwebpagedetails&quot;);<br />
+const gameDetailsToggle = document.getElementById(&quot;facgamedetailstoggle&quot;);<br />
+const gameDetails = document.getElementById(&quot;facgamedetails&quot;);<br />
+<br />
+<br />
+/* Toggle to show/hide details about project */<br />
+hobbyDetailsToggle.addEventListener(&quot;click&quot;,(Event) =&gt; {<br />
+    hobbyDetails.classList.toggle(&quot;hidden&quot;);<br />
+    /* Change button text based on visibility of extra text */<br />
+    if (hobbyDetails.matches(&quot;.hidden&quot;)) {<br />
+        hobbyDetailsToggle.innerText = &quot;Show more&quot;;<br />
+    }<br />
+    else {<br />
+        hobbyDetailsToggle.innerText = &quot;Show less&quot;;<br />
+        changeTabHobby(event, &quot;hobbypagetext&quot;)<br />
+    }<br />
+})<br />
+projectGalleryDetailsToggle.addEventListener(&quot;click&quot;,(Event) =&gt; {<br />
+    projectGalleryDetails.classList.toggle(&quot;hidden&quot;);<br />
+    if (projectGalleryDetails.matches(&quot;.hidden&quot;)) {<br />
+        projectGalleryDetailsToggle.innerText = &quot;Show more&quot;;<br />
+    }<br />
+    else {<br />
+        projectGalleryDetailsToggle.innerText = &quot;Show less&quot;;<br />
+        changeTabGallery(event, &quot;projectgallerytext&quot;)<br />
+    }<br />
+})<br />
+movieDatabaseDetailsToggle.addEventListener(&quot;click&quot;,(Event) =&gt; {<br />
+    movieDatabaseDetails.classList.toggle(&quot;hidden&quot;);<br />
+    if (movieDatabaseDetails.matches(&quot;.hidden&quot;)) {<br />
+        movieDatabaseDetailsToggle.innerText = &quot;Show more&quot;;<br />
+    }<br />
+    else {<br />
+        movieDatabaseDetailsToggle.innerText = &quot;Show less&quot;;<br />
+        changeTabMovie(event, &quot;moviedatabasetext&quot;)<br />
+    }<br />
+})<br />
+webPageDetailsToggle.addEventListener(&quot;click&quot;,(Event) =&gt; {<br />
+    webPageDetails.classList.toggle(&quot;hidden&quot;);<br />
+    if (webPageDetails.matches(&quot;.hidden&quot;)) {<br />
+        webPageDetailsToggle.innerText = &quot;Show more&quot;;<br />
+    }<br />
+    else {<br />
+        webPageDetailsToggle.innerText = &quot;Show less&quot;;<br />
+        changeTabWebPage(event, &quot;facwebpagetext&quot;)<br />
+    }<br />
+})<br />
+gameDetailsToggle.addEventListener(&quot;click&quot;,(Event) =&gt; {<br />
+    gameDetails.classList.toggle(&quot;hidden&quot;);<br />
+    if (gameDetails.matches(&quot;.hidden&quot;)) {<br />
+        gameDetailsToggle.innerText = &quot;Show more&quot;;<br />
+    }<br />
+    else {<br />
+        gameDetailsToggle.innerText = &quot;Show less&quot;;<br />
+        changeTabGame(event, &quot;facgametext&quot;)<br />
+    }<br />
+})<br />
+<br />
+/* Function to change text displayed dependent on active tab */<br />
+function changeTabHobby(evt, tabname) {<br />
+    var cardtext, tablinks;<br />
+    cardtext = document.getElementsByClassName(&quot;cardtexthobby&quot;);<br />
+    /* Hide all tabs */<br />
+    for (i = 0; i &lt; cardtext.length; i++) {<br />
+      cardtext[i].style.display = &quot;none&quot;;<br />
+    }<br />
+    tablinks = document.getElementsByClassName(&quot;tablinkshobby&quot;);<br />
+    /* reset active tab */<br />
+    for (i = 0; i &lt; tablinks.length; i++) {<br />
+      tablinks[i].className = tablinks[i].className.replace(&quot; active&quot;, &quot;&quot;);<br />
+    }<br />
+    /* set current tabs to active and text conent visible */<br />
+    document.getElementById(tabname).style.display = &quot;block&quot;;<br />
+    evt.currentTarget.className += &quot; active&quot;;<br />
+  }<br />
+<br />
+function changeTabGallery(evt, tabname) {<br />
+    var cardtext, tablinks;<br />
+    cardtext = document.getElementsByClassName(&quot;cardtextgallery&quot;);<br />
+    /* Hide all tabs */<br />
+    for (i = 0; i &lt; cardtext.length; i++) {<br />
+      cardtext[i].style.display = &quot;none&quot;;<br />
+    }<br />
+    tablinks = document.getElementsByClassName(&quot;tablinksgallery&quot;);<br />
+    /* reset active tab */<br />
+    for (i = 0; i &lt; tablinks.length; i++) {<br />
+      tablinks[i].className = tablinks[i].className.replace(&quot; active&quot;, &quot;&quot;);<br />
+    }<br />
+    /* set current tabs to active and text conent visible */<br />
+    document.getElementById(tabname).style.display = &quot;block&quot;;<br />
+    evt.currentTarget.className += &quot; active&quot;;<br />
+}<br />
+<br />
+function changeTabMovie(evt, tabname) {<br />
+    var cardtext, tablinks;<br />
+    cardtext = document.getElementsByClassName(&quot;cardtextmovie&quot;);<br />
+    /* Hide all tabs */<br />
+    for (i = 0; i &lt; cardtext.length; i++) {<br />
+      cardtext[i].style.display = &quot;none&quot;;<br />
+    }<br />
+    tablinks = document.getElementsByClassName(&quot;tablinksmovie&quot;);<br />
+    /* reset active tab */<br />
+    for (i = 0; i &lt; tablinks.length; i++) {<br />
+      tablinks[i].className = tablinks[i].className.replace(&quot; active&quot;, &quot;&quot;);<br />
+    }<br />
+    /* set current tabs to active and text conent visible */<br />
+    document.getElementById(tabname).style.display = &quot;block&quot;;<br />
+    evt.currentTarget.className += &quot; active&quot;;<br />
+}<br />
+function changeTabWebPage(evt, tabname) {<br />
+    var cardtext, tablinks;<br />
+    cardtext = document.getElementsByClassName(&quot;cardtextwebpage&quot;);<br />
+    /* Hide all tabs */<br />
+    for (i = 0; i &lt; cardtext.length; i++) {<br />
+      cardtext[i].style.display = &quot;none&quot;;<br />
+    }<br />
+    tablinks = document.getElementsByClassName(&quot;tablinkswebpage&quot;);<br />
+    /* reset active tab */<br />
+    for (i = 0; i &lt; tablinks.length; i++) {<br />
+      tablinks[i].className = tablinks[i].className.replace(&quot; active&quot;, &quot;&quot;);<br />
+    }<br />
+    /* set current tabs to active and text conent visible */<br />
+    document.getElementById(tabname).style.display = &quot;block&quot;;<br />
+    evt.currentTarget.className += &quot; active&quot;;<br />
+}<br />
+function changeTabGame(evt, tabname) {<br />
+    var cardtext, tablinks;<br />
+    cardtext = document.getElementsByClassName(&quot;cardtextgame&quot;);<br />
+    /* Hide all tabs */<br />
+    for (i = 0; i &lt; cardtext.length; i++) {<br />
+      cardtext[i].style.display = &quot;none&quot;;<br />
+    }<br />
+    tablinks = document.getElementsByClassName(&quot;tablinksgame&quot;);<br />
+    /* reset active tab */<br />
+    for (i = 0; i &lt; tablinks.length; i++) {<br />
+      tablinks[i].className = tablinks[i].className.replace(&quot; active&quot;, &quot;&quot;);<br />
+    }<br />
+    /* set current tabs to active and text conent visible */<br />
+    document.getElementById(tabname).style.display = &quot;block&quot;;<br />
+    evt.currentTarget.className += &quot; active&quot;;<br />
+}</pre>
                     </div>
                 </div>
             </div>
@@ -76,26 +656,353 @@
                         <Button class="tablinks tablinksmovie" onclick="changeTabMovie(event, 'moviedatabasejavascript')">JS</Button>
                     </div>
                     <div class="cardtext cardtextmovie" id="moviedatabasetext">
-                        <h2><a href="https://jamesess.github.io/Movie-Database/">Movie Database</a></h2>
+                        <h2><a href="https://jamesess.github.io/Movie-Database/" target=”_blank” >Movie Database</a></h2>
                         <p class="scroll">This project was focused on making an interactive website. I decided I wanted to make it possible for the user to submit their own films and I also really wanted a way of picking a random film from the database. For this project I had to learn more about DOM, object manipulation and start making use of conditions in JavaScript</p>
                     </div>
                     <div class="cardtext cardtextmovie" id="moviedatabasehtml">
                         <h2>HTML</h2>
-                        <p class="scroll">my html</p>
+                        <pre class="scroll precontent">&lt;!DOCTYPE html&gt;<br />
+&lt;html lang=&quot;en&quot;&gt;<br />
+    &lt;head&gt;<br />
+        &lt;meta charset=&quot;utf-8&quot;&gt;<br />
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br />
+        &lt;link href=&quot;mystyles.css&quot; rel=&quot;stylesheet&quot;&gt;<br />
+        &lt;title&gt;Movie database&lt;/title&gt;<br />
+    &lt;/head&gt;<br />
+    &lt;body&gt;<br />
+        &lt;header&gt;<br />
+        &lt;div class=&quot;mainbuttonparent&quot;&gt;<br />
+            &lt;p id=&quot;listallbutton&quot; class=&quot;mainbutton&quot;&gt;List all films&lt;/p&gt;<br />
+            &lt;p id=&quot;randomfilmbutton&quot; class=&quot;mainbutton&quot;&gt;Random film&lt;/p&gt;<br />
+            &lt;p id=&quot;newfilmbutton&quot; class=&quot;mainbutton&quot;&gt;Add new film&lt;/p&gt;    <br />
+        &lt;/div&gt;<br />
+        &lt;/header&gt;<br />
+        &lt;div id=&quot;randommoviediv&quot;&gt;<br />
+            &lt;h1 id=&quot;randommovietitle&quot; class=&quot;movietitle&quot;&gt;                <br />
+            &lt;/h1&gt;<br />
+            &lt;ul id=&quot;randommovielist&quot; style=&quot;list-style: none; padding: 0%; margin: 0%;&quot;&gt;<br />
+            &lt;/ul&gt;  <br />
+        &lt;/div&gt;<br />
+        &lt;div id=&quot;listalldiv&quot;&gt;<br />
+                &lt;h1 id=&quot;listalltitle&quot;&gt;&lt;/h1&gt;<br />
+                &lt;ul id=&quot;alltitlesul&quot; style=&quot;list-style: none; padding: 0%; margin: 0%;&quot;&gt;&lt;/ul&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;div id=&quot;newfilmdiv&quot; class=&quot;hideme&quot;&gt;<br />
+            &lt;form action=&quot;&quot; id=&quot;newfilmform&quot;&gt;<br />
+                &lt;label for=&quot;filmtitle&quot;&gt;Title: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;input type=&quot;text&quot; id=&quot;filmtitle&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmtitle&quot; placeholder=&quot;The Darjeeling Limited&quot;&gt;&lt;br&gt;<br />
+                &lt;label for=&quot;filmplot&quot;&gt;Plot: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;textarea type=&quot;text&quot; id=&quot;filmplot&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmplot&quot; rows=&quot;7&quot; cols=&quot;30&quot; placeholder=&quot;A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.&quot;&gt;&lt;/textarea&gt;&lt;br&gt;<br />
+                &lt;label for=&quot;filmcast&quot;&gt;Cast: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;textarea type=&quot;text&quot; id=&quot;filmcast&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmcast&quot; rows=&quot;7&quot; cols=&quot;30&quot; placeholder=&quot;Jason Schwartzman, Owen Wilson, Adrien Brody&quot;&gt;&lt;/textarea&gt;&lt;br&gt;<br />
+                &lt;label for=&quot;filmrating&quot;&gt;Rating: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;input type=&quot;text&quot; id=&quot;filmrating&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmrating&quot; placeholder=&quot;7.2&quot;&gt;&lt;br&gt;               <br />
+                &lt;label for=&quot;filmruntime&quot;&gt;Runtime: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;input type=&quot;text&quot; id=&quot;filmruntime&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmruntime&quot; placeholder=&quot;151&quot;&gt;&lt;br&gt;<br />
+                &lt;label for=&quot;filmyear&quot;&gt;Year: &lt;/label&gt;&lt;br&gt;<br />
+                &lt;input type=&quot;text&quot; id=&quot;filmyear&quot; class=&quot;filmsubmitclass&quot; name=&quot;filmyear&quot; placeholder=&quot;2007&quot;&gt;&lt;br&gt;<br />
+                &lt;button type=&quot;submit&quot; id=&quot;newfilmsubmit&quot; class=&quot;filmsubmitclass&quot;&gt;Add Film&lt;/button&gt;<br />
+            &lt;/form&gt;<br />
+<br />
+        &lt;/div&gt;<br />
+        <br />
+    &lt;/body&gt;<br />
+    &lt;script src=&quot;moviedata.js&quot;&gt;&lt;/script&gt;<br />
+&lt;/html&gt;</pre>
                     </div>
                     <div class="cardtext cardtextmovie" id="moviedatabasecss">
-                        <h2>css</h2>
-                        <p class="scroll">my css</p>
+                        <h2>CSS</h2>
+                        <pre class="scroll precontent">* {<br />
+    box-sizing: border-box;<br />
+    color: rgb(236,33,39);<br />
+    cursor: default;<br />
+}<br />
+body {<br />
+    background-color: rgb(254,200,6);<br />
+    font-size: large;<br />
+}<br />
+.mainbuttonparent {<br />
+    display: flex;<br />
+    justify-content: space-evenly;<br />
+    align-items: center;<br />
+    <br />
+}<br />
+<br />
+.mainbutton {<br />
+    font-size: xx-large;<br />
+    background-color: rgb(254,200,6);<br />
+    border: 3px solid rgb(236,33,39);<br />
+    padding: 1rem;<br />
+    color: rgb(236,33,39);<br />
+}<br />
+<br />
+.mainbutton:hover {<br />
+    <br />
+    font-weight: bolder;<br />
+}<br />
+<br />
+<br />
+.hideme {<br />
+    display: none;<br />
+}<br />
+#newfilmform {<br />
+    padding: 1rem;<br />
+}<br />
+.filmsubmitclass {<br />
+    background-color: rgb(254,200,6);<br />
+    color: rgb(236,33,39);<br />
+    cursor: auto;<br />
+    border-color: rgb(236,33,39);<br />
+    outline: none;<br />
+    resize: none;<br />
+}<br />
+<br />
+li {<br />
+    padding: 0.3rem;<br />
+    width: fit-content;<br />
+}<br />
+<br />
+<br />
+@keyframes listallanim {<br />
+    0% {color: rgb(146,177,180);}<br />
+}</pre>
                     </div>
                     <div class="cardtext cardtextmovie" id="moviedatabasejavascript">
-                        <h2>Javascript</h2>
-                        <p class="scroll">my javascrip</p>
+                        <h2>JavaScript</h2>
+                        <pre class="scroll precontent">let movieData = {<br />
+  &quot;The Darjeeling Limited&quot;: {<br />
+    plot: &quot;A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.&quot;,<br />
+    cast: [&quot;Jason Schwartzman&quot;, &quot;Owen Wilson&quot;, &quot;Adrien Brody&quot;],<br />
+    runtime: 151,<br />
+    rating: 7.2,<br />
+    year: 2007,<br />
+  },<br />
+  &quot;The Royal Tenenbaums&quot;: {<br />
+    plot: &quot;The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons&quot;,<br />
+    rating: 7.6,<br />
+    year: 2001,<br />
+    cast: [&quot;Gene Hackman&quot;, &quot;Gwnyeth Paltrow&quot;, &quot;Anjelica Huston&quot;],<br />
+    runtime: 170,<br />
+  },<br />
+  &quot;Fantastic Mr. Fox&quot;: {<br />
+    year: 2009,<br />
+    plot: &quot;An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.&quot;,<br />
+    cast: [<br />
+      &quot;George Clooney&quot;,<br />
+      &quot;Meryl Streep&quot;,<br />
+      &quot;Bill Murray&quot;,<br />
+      &quot;Jason Schwartzman&quot;,<br />
+    ],<br />
+    runtime: 147,<br />
+    rating: 7.9,<br />
+  },<br />
+  &quot;The Grand Budapest Hotel&quot;: {<br />
+    rating: 8.1,<br />
+    runtime: 159,<br />
+    year: 2014,<br />
+    plot: &quot;A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.&quot;,<br />
+    cast: [&quot;Ralph Fiennes&quot;, &quot;F. Murray Abraham&quot;, &quot;Mathieu Amalric&quot;],<br />
+  },<br />
+};<br />
+<br />
+<br />
+// Can I allow for new properties in object while keeping preffered order?? Want to add star rating and seen already <br />
+var movieDataProperties = [&quot;plot&quot;, &quot;cast&quot;, &quot;rating&quot;, &quot;runtime&quot;, &quot;year&quot;]<br />
+//variables for alphebtical sort<br />
+let sortToggle = true;<br />
+let movieArray = Object.keys(movieData);<br />
+<br />
+//initialise dom variables<br />
+const listAllButton = document.getElementById(&quot;listallbutton&quot;);<br />
+const newFilmButton = document.getElementById(&quot;newfilmbutton&quot;);<br />
+const randomFilmButton = document.getElementById(&quot;randomfilmbutton&quot;);<br />
+const newFilmFormSubmit = document.getElementById(&quot;newfilmform&quot;);<br />
+const newFilmProperties = document.getElementsByClassName(&quot;filmsubmitclass&quot;);<br />
+<br />
+var randomMovieDiv = document.getElementById(&quot;randommoviediv&quot;);<br />
+var listAllDiv = document.getElementById(&quot;listalldiv&quot;);<br />
+var newFilmDiv = document.getElementById(&quot;newfilmdiv&quot;);<br />
+<br />
+var randomMovie = document.getElementById(&quot;randommovietitle&quot;);<br />
+var randomMovList = document.getElementById(&quot;randommovielist&quot;);<br />
+var allTitlesUl = document.getElementById(&quot;alltitlesul&quot;);<br />
+var listAllTitle = document.getElementById(&quot;listalltitle&quot;);<br />
+<br />
+randomFilmButton.addEventListener(&quot;click&quot;, randomFilmFunc);<br />
+listAllButton.addEventListener(&quot;click&quot;, listAllFunc);<br />
+newFilmButton.addEventListener(&quot;click&quot;, newFilmFunc);<br />
+newFilmFormSubmit.addEventListener(&quot;submit&quot;, submitNewFilmFunc,false);<br />
+<br />
+/*-----RANDOM FILM BUTTON FUNCTIONS-----*/<br />
+<br />
+/* conditional on button press generate random number <br />
+then pick film based on rndm number */<br />
+function randomFilmFunc() {<br />
+    clearAll();<br />
+    let movieArray = Object.keys(movieData);<br />
+    let sampleSize = movieArray.length;<br />
+    let randomInteger = Math.floor(Math.random()*sampleSize);<br />
+    var tester = &quot;filmtitle &quot; + String(movieData[movieArray[randomInteger]]); <br />
+    randomMovie.textContent = movieArray[randomInteger];<br />
+    filmChoice(movieArray[randomInteger]); <br />
+}<br />
+/* lists properties of given (random) film */<br />
+function filmChoice(title) {<br />
+  // iterate through film object with given title and output in list<br />
+  for (i = 0; i &lt; Object.keys(movieData[title]).length; i++) {<br />
+    //current method doesn't account for object entries - can that be done neatly?<br />
+<br />
+    var movieDetails = document.createElement(&quot;li&quot;);<br />
+    movieDetails.setAttribute(&quot;id&quot;, &quot;randommovielist&quot; + i);<br />
+    document.getElementById(&quot;randommovielist&quot;).appendChild(movieDetails);<br />
+    movieDetails.innerText = (movieDataProperties[i] + &quot;: &quot; + movieData[title][movieDataProperties[i]]);<br />
+  }<br />
+}<br />
+<br />
+/* -----LIST ALL FILMS BUTTON FUNCTIONS----- */<br />
+<br />
+/* Lists titles of all films in database and sets up to list details of a chosen title */<br />
+function listAllFunc() {<br />
+  clearAll();<br />
+  //change list all button to alphebetical sort<br />
+  if (sortToggle){<br />
+  listAllButton.innerText = (&quot;Sort alphabetically &darr;&quot;);<br />
+  }<br />
+  else {<br />
+    listAllButton.innerText = (&quot;Sort alphabetically &uarr;&quot;)<br />
+  }<br />
+  listAllButton.removeEventListener(&quot;click&quot;, listAllFunc);<br />
+  listAllButton.addEventListener(&quot;click&quot;, sortFilmsMinusThe);<br />
+  for (i = 0; i &lt; movieArray.length; i++) {<br />
+    var movieTitle = document.createElement(&quot;li&quot;);<br />
+    movieTitle.setAttribute(&quot;class&quot;, &quot;listallul&quot;);<br />
+    movieTitle.setAttribute(&quot;id&quot;, &quot;alltitles&quot; + i); //id's are never used possibly redundant?<br />
+    allTitlesUl.appendChild(movieTitle);<br />
+    movieTitle.innerText = (movieArray[i]);<br />
+    movieTitle.addEventListener(&quot;click&quot;, listAllDetails);<br />
+    movieTitle.addEventListener(&quot;mouseenter&quot;, (Event) =&gt; { //change colour of list item when mouse hovers over<br />
+      Event.target.style.color = &quot;rgb(146,177,180)&quot;;     <br />
+    })<br />
+    movieTitle.addEventListener(&quot;mouseleave&quot;, (Event) =&gt; { //reset once mouse leaves    <br />
+      setTimeout(() =&gt; {<br />
+        Event.target.style.color = &quot;&quot;;<br />
+      }, 25);<br />
+    }<br />
+    )<br />
+    movieTitle.style.animation = (&quot;listallanim 2500ms&quot;);    <br />
+    movieTitle.style.animationDelay = 300*i+&quot;ms&quot;;<br />
+  }<br />
+}<br />
+<br />
+<br />
+/* Shows details for chosen film from list of all films */<br />
+function listAllDetails() {<br />
+  var title =  this.innerText; //saves title of chosen film (text of element that triggered on click event)<br />
+  clearAll();<br />
+  listAllTitle.innerText = (title);<br />
+  for (i = 0; i &lt; Object.keys(movieData[title]).length; i++) {<br />
+    //current method doesn't account for object entries - can that be done neatly?<br />
+    <br />
+    var movieDetails = document.createElement(&quot;li&quot;);<br />
+    movieDetails.setAttribute(&quot;id&quot;, &quot;alltitlesproperties&quot; + i);<br />
+    allTitlesUl.appendChild(movieDetails);<br />
+    movieDetails.innerText = (movieDataProperties[i] + &quot;: &quot; + movieData[title][movieDataProperties[i]]);<br />
+  }<br />
+}<br />
+<br />
+/* -----NEW FILM FORM BUTTON FUNCTIONS----- */<br />
+<br />
+/* makes newfilm form visible on page */<br />
+function newFilmFunc() {<br />
+  clearAll();<br />
+  newFilmDiv.removeAttribute(&quot;class&quot;, &quot;hideme&quot;);<br />
+}<br />
+<br />
+<br />
+/* Make submit button store new film as an object, then add object to main movie object */ <br />
+function submitNewFilmFunc(Event) {<br />
+  Event.preventDefault();   //stops submit button refreshing page and sending data<br />
+  alert(&quot;Thanks for adding a new film &quot; + newFilmProperties[0].value);<br />
+  let newTitleObject = { };<br />
+  let newTitle = newFilmProperties[0].value;<br />
+  //store each form input (-title) in object <br />
+  for (i = 1; i &lt; newFilmProperties.length; i++){<br />
+    //make i == 1 (cast) store each actor as seperate entry in an array?<br />
+    var j = i-1;<br />
+    newTitleObject[movieDataProperties[j]] = newFilmProperties[i].value;<br />
+    console.log(newFilmProperties[i]);<br />
+    newFilmProperties[i].value = &quot;&quot;;  //reset form inputs to placeholder values<br />
+  }<br />
+  movieData[newTitle] = newTitleObject; <br />
+  newFilmProperties[0].value = &quot;&quot;; //reset form inputs to placeholder values<br />
+  clearAll();<br />
+  movieArray = Object.keys(movieData)<br />
+  //Ideally add data sanitization and refuse incorrectly formated data<br />
+  //could be cleaned up definetly some redundant/unnecesary variables in here<br />
+}<br />
+<br />
+/* -----Universal functions----- */<br />
+/* resets page to original content */<br />
+function clearAll() {<br />
+  listAllButton.innerText = (&quot;List all films&quot;);<br />
+  listAllButton.addEventListener(&quot;click&quot;, listAllFunc);<br />
+  listAllButton.removeEventListener(&quot;click&quot;, sortFilmsMinusThe);<br />
+  allTitlesUl.textContent = &quot; &quot;;<br />
+  randomMovie.textContent = &quot; &quot;;<br />
+  randomMovList.textContent = &quot; &quot;;<br />
+  listAllTitle.textContent = &quot; &quot;;<br />
+  newFilmDiv.setAttribute(&quot;class&quot;, &quot;hideme&quot;); //stops new film form displaying<br />
+}<br />
+<br />
+<br />
+<br />
+/* Alphebetical sort a-z/z-a*/<br />
+function sortFilmsMinusThe () {<br />
+  const filterOutThe = &quot;The &quot;<br />
+  let alphebeticalMovieArray = [];<br />
+  movieArray = Object.keys(movieData);<br />
+  for (i = 0; i &lt; movieArray.length; i++){<br />
+  let currentFilm = movieArray[i];<br />
+  //if title starts with 'The' remove it from title and add title to array otherwise add title to array<br />
+  if (currentFilm.startsWith(filterOutThe)) {<br />
+      alphebeticalMovieArray.splice(i,1, currentFilm.replace(filterOutThe, &quot;&quot;));<br />
+      alphebeticalMovieArray[i] = alphebeticalMovieArray[i].concat(&quot;changeme&quot;); //give titles with 'The' an easy identifier so it can be added back in<br />
+  }<br />
+  else {<br />
+      alphebeticalMovieArray.push(movieArray[i])<br />
+  }<br />
+  }<br />
+  //sort array in alphebetical order ignoring case<br />
+  alphebeticalMovieArray.sort(function (a, b) {<br />
+    return a.toLowerCase().localeCompare(b.toLowerCase());<br />
+  })<br />
+  //toggle to check if sorted a-z or z-a<br />
+  if (sortToggle)<br />
+    {<br />
+     sortToggle = false;<br />
+      <br />
+  }<br />
+  else{<br />
+    alphebeticalMovieArray.reverse();  //reverse order of array - sort z-a<br />
+    sortToggle = true;<br />
+  }<br />
+   <br />
+  //add 'The' back to relevant titles<br />
+  for (i = 0; i &lt; movieArray.length; i++){<br />
+      if (alphebeticalMovieArray[i].endsWith(&quot;changeme&quot;)){            //find titles that had 'The' removed and add back in<br />
+          alphebeticalMovieArray[i] = alphebeticalMovieArray[i].replace(&quot;changeme&quot;, &quot;&quot;);<br />
+          alphebeticalMovieArray[i] = filterOutThe.concat(alphebeticalMovieArray[i]);<br />
+      }<br />
+  }<br />
+  movieArray = alphebeticalMovieArray;<br />
+  listAllFunc();<br />
+}</pre>
                     </div>
                 </div>
             </div>
             <div class="card" id="facwebpage">
                 <button id="facwebpagesdetailstoggle" class="detailstoggle">Show more</button>
-                <img class="cardimg" id="facwebpageimg" src="images/webpage 800by600px.jpg" alt="Screenshot of my founders and coders website">
+                <img class="cardimg" id="facwebpageimg" src="Images/webpage 800by600px.jpg" alt="Screenshot of my founders and coders website">
                 <div id="facwebpagedetails" class="hidden imgoverlap">
                     <div class="tabs" id="facwebpagebuttons">
                         <Button class="tablinks tablinkswebpage" onclick="changeTabWebPage(event, 'facwebpagetext')">Maintext</Button>
@@ -109,15 +1016,15 @@
                     </div>
                     <div class="cardtext cardtextwebpage" id="facwebpagehtml">
                         <h2>HTML</h2>
-                        <p class="scroll">my html</p>
+                        <pre class="scroll precontent">my html</pre>
                     </div>
                     <div class="cardtext cardtextwebpage" id="facwebpagecss">
                         <h2>css</h2>
-                        <p class="scroll">my css</p>
+                        <pre class="scroll precontent">my css</pre>
                     </div>
                     <div class="cardtext cardtextwebpage" id="facwebpagejavascript">
                         <h2>Javascript</h2>
-                        <p class="scroll">my javascrip</p>
+                        <pre class="scroll precontent">my javascrip</pre>
                     </div>
                 </div>
             </div>
@@ -137,15 +1044,15 @@
                     </div>
                     <div class="cardtext cardtextgame" id="facgamehtml">
                         <h2>HTML</h2>
-                        <p class="scroll">my html</p>
+                        <pre class="scroll precontent">my html</pre>
                     </div>
                     <div class="cardtext cardtextgame" id="facgamecss">
-                        <h2>css</h2>
-                        <p class="scroll">my css</p>
+                        <h2>CSS</h2>
+                        <pre class="scroll precontent">my css</pre>
                     </div>
                     <div class="cardtext cardtextgame" id="facgamejavascript">
-                        <h2>Javascript</h2>
-                        <p class="scroll">my javascrip</p>
+                        <h2>JavaSScript</h2>
+                        <pre class="scroll precontent">my javascrip</pre>
                     </div>
                 </div>
             </div>

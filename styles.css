@@ -5,7 +5,11 @@
 }
 
 body {
-    background-color: rgba(211,255,233,1);
+    background-color: rgba(226,88,96,1);
+    background-image: linear-gradient(to bottom right, rgba(223,54,124,0.5), rgba(229,122,68,1));
+    color: rgba(234,234,234,1);
+    padding-bottom: 3%;
+    padding-top: 2%;
 }
 .hidden{
     display: none;
@@ -19,80 +23,85 @@ h2{
     text-align: center;
     font-size: 1.5rem;
 }
-.cardcontainer {
-    
+.cardcontainer {    
     display: flex;
     align-content: space-evenly;
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 80px;
     column-gap: 25px;
+    height: fit-content;
     
+}
+
+.hobbypagedetails {
+    overflow-y: scroll;
+    overscroll-behavior: contain;
 }
 
 .card {
     position: relative;    
-    width: clamp(200px, 100%, 600px);
     min-height: 200px;
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    
 }
 .cardimg {
-    width: clamp(200px, 100%, 600px);
     object-fit: contain;
-    
-    
-    /* opacity: 0; */
 }
 .detailstoggle {
-    width: clamp(200px, 100%, 600px);
     position: absolute;
     top: -18px;
     border: none;
-    
+    background-color: rgba(0,42,34,1);
+    color: rgba(234,234,234,1);
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
-
-.tabs {
-
+.tabs {    
     position: absolute;
-    width: clamp(200px, 100%, 600px);
     top: 0px;
     display: flex;
     align-content: space-evenly;
     justify-content: center;
 }
 .tabs button.active {
-    background-color: aqua;
+    background-color: rgba(46,28,43);
 }
 .tablinks {
     flex-grow: 1;
-    border-bottom-color: rgba(9,9,9,0.7);
+    border-bottom-color: rgba(46,28,43,0.7);
     border-top: none;
     border-left: none;
     border-right: none;
-   
+    color: rgba(234,234,234,1);
+    background-color: rgba(0,42,34,1);
+    cursor: pointer;
 }
 .cardtext {
     position: absolute;
-    width: clamp(200px, 100%, 800px);
     top: 20px;
     height: 95.5%;
     overflow: auto;    
-    color: rgb(219,219,224);
     background-color: rgba(9,9,9,0.7);
 }
-.tabs {
-    background-color: rgba(9,9,9,0.7);
+a {
+    cursor: pointer;
+    color: rgba(234,234,234,1);
 }
+.scroll {
+    overflow-wrap: anywhere;
+  }
 
-/* .imgoverlap {
+.cardimg, .cardtext, .hobbypagedetails {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 200px;
+  }
+.cardimg, .cardtext, .hobbypagedetails, .tabs, .detailstoggle, .card {
     width: clamp(200px, 100%, 600px);
-    object-fit: contain;
-} */
+}
 
-/* .scroll {
-    width: clamp(200px, 100%, 800px);
-    vertical-align: ;
-    overflow: auto;
-    height: inherit;
-    max-height: 100%;
-    position: fixed;
-} */
+.precontent {
+    font-family: 'Courier New', Courier, monospace;
+}

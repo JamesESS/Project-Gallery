@@ -59,7 +59,7 @@ gameDetailsToggle.addEventListener("click",(Event) => {
     }
     else {
         gameDetailsToggle.innerText = "Show less";
-        changeTabgame(event, "facgametext")
+        changeTabGame(event, "facgametext")
     }
 })
 
